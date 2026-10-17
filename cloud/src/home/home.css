@@ -1,0 +1,173 @@
+/* 正式页面（会议 V2 简洁版风格：暖色浅底、淡紫语音按钮）。只作用在 .home 里，不影响调试台。 */
+
+/* 共用组件（提醒条、事件卡、待确认、反馈输入页）用的颜色变量，换成 V2 的配色；正式页面固定浅色 */
+.home {
+  --bg: #f5f5ef;
+  --panel: #fcfcf8;
+  --border: #e0e4d7;
+  --text: #30362e;
+  --muted: #858b7e;
+  --accent: #7d6a97;
+  --accent-text: #ffffff;
+  --tag: #ece6f2;
+  --tag-text: #6f5d86;
+  --warn: #f6ecd9;
+  --warn-text: #7c5a1c;
+  --error: #f8e4e2;
+  --error-text: #9b3a32;
+  --ok: #e3ecd9;
+  --ok-text: #4a6338;
+  --threshold: #c99a4a;
+  color-scheme: light;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+body:has(.home) { background: #f5f5ef; }
+.home button, .home input, .home textarea, .home select { font: inherit; }
+.home button { cursor: pointer; color: inherit; }
+.home button:focus-visible, .home input:focus-visible, .home textarea:focus-visible, .home select:focus-visible { outline: 3px solid #aa95c5; outline-offset: 2px; }
+.home h3 { font-size: 14px; font-weight: 600; margin: 20px 0 8px; }
+
+.h-main { max-width: 820px; margin: 0 auto; padding: 28px 24px 140px; }
+
+/* 顶栏 */
+.h-header { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.h-logo { background: #dfe5d4; border-radius: 12px; padding: 8px 11px; font-size: 20px; }
+.h-brand { font: 24px Georgia, 'Songti SC', serif; }
+.h-muted { color: var(--muted); font-size: 12px; }
+.h-spacer { flex: 1; }
+.h-status { border: 1px solid #dce0d4; border-radius: 20px; padding: 5px 10px; font-size: 12px; color: var(--muted); white-space: nowrap; }
+.h-status.on { color: #4a6338; border-color: #c9d6bb; background: #eef3e7; }
+.h-more { border: 0; background: none; font-size: 22px; padding: 2px 8px; border-radius: 10px; }
+.h-more:hover { background: #ecefe4; }
+
+/* 提醒条：沿用调试台的组件，这里只调间距 */
+.h-alerts .alerts { margin: 0 0 14px; }
+
+/* 实时画面 */
+.h-scene { position: relative; height: 360px; overflow: hidden; border-radius: 22px; background: #5f6a55; }
+.h-scene > video, .h-scene > canvas, .h-scene > img.h-mirror { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.h-scene::after { content: ''; position: absolute; inset: 55% 0 0; background: linear-gradient(transparent, #14211388); pointer-events: none; }
+.h-scene-tag { position: absolute; z-index: 1; top: 16px; left: 18px; border-radius: 20px; background: #26332488; padding: 7px 12px; color: white; font-size: 12px; }
+.h-scene-empty { position: absolute; z-index: 1; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; color: #f1f4ec; text-align: center; padding: 20px; }
+.h-scene-empty p { margin: 0; font-size: 15px; }
+.h-call { position: absolute; z-index: 2; right: 18px; bottom: 18px; border: 0; background: #fffffff0; border-radius: 24px; padding: 10px 15px; font-size: 13px; color: #37412f; }
+
+/* Homi 一句话：整行可点，进入“今天” */
+.h-insight { display: flex; align-items: center; gap: 12px; width: 100%; margin: 14px 0; padding: 12px 14px; text-align: left; background: transparent; border: 1px solid transparent; border-radius: 16px; }
+.h-insight:hover { background: #fbfbf6; border-color: #e3e6da; }
+.h-avatar { flex: none; width: 36px; height: 36px; display: grid; place-items: center; background: #e6e0ef; border-radius: 50%; color: #81728b; }
+.h-insight-text { flex: 1; font-size: 14px; line-height: 1.7; }
+.h-insight-more { flex: none; font-size: 13px; color: #7d6a97; white-space: nowrap; }
+
+/* 两个入口 */
+.h-entries { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.h-entry { display: flex; align-items: center; gap: 13px; text-align: left; background: #fcfcf8; border: 1px solid #e0e4d7; border-radius: 16px; padding: 18px; }
+.h-entry:hover { border-color: #cfd5c3; }
+.h-entry strong { display: block; font-size: 15px; font-weight: 500; }
+.h-entry small { display: block; color: #8b9181; font-size: 12px; margin-top: 5px; }
+.h-icon { font-size: 22px; color: #90977e; }
+.h-arrow { margin-left: auto; color: #969e88; }
+
+/* 按钮 */
+.h-primary { background: #657158; color: white !important; border: 0; border-radius: 10px; padding: 10px 16px; }
+.h-primary:disabled { opacity: 0.5; cursor: default; }
+.h-secondary { background: #e9ecdf; border: 0; border-radius: 10px; padding: 9px 13px; font-size: 13px; }
+.h-secondary:disabled { opacity: 0.6; cursor: default; }
+.h-danger { background: #f3dcd9; color: #8e352d !important; border: 0; border-radius: 10px; padding: 9px 13px; font-size: 13px; }
+.h-link { border: 0; background: none; color: #7d6a97; font-size: 13px; padding: 4px 2px; text-decoration: none; }
+.h-link.light { color: #e6eedd; text-decoration: underline; }
+.h-actions { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 4px; }
+.h-error { color: var(--error-text); font-size: 13px; }
+
+/* 弹层 */
+.h-backdrop { position: fixed; inset: 0; z-index: 50; background: #202b2266; backdrop-filter: blur(4px); display: flex; align-items: flex-start; justify-content: center; padding: 6vh 14px; overflow-y: auto; }
+.h-sheet { width: min(600px, 100%); background: #fafbf7; border: 1px solid #e2e6d8; border-radius: 22px; padding: 22px 24px; box-shadow: 0 20px 60px #1d261c33; }
+.h-sheet.wide { width: min(760px, 100%); }
+.h-sheet-head { display: flex; justify-content: space-between; align-items: center; }
+.h-sheet h2 { font-size: 21px; font-weight: 500; margin: 0; }
+.h-close { border: 0; background: none; font-size: 26px; line-height: 1; padding: 0 4px; color: var(--muted); }
+.h-description { font-size: 13px; color: #7a8370; line-height: 1.8; }
+.h-sheet label, .h-draft label { display: block; font-size: 12px; color: #778369; margin-bottom: 10px; }
+.h-sheet label textarea, .h-sheet label input, .h-sheet label select,
+.h-draft label textarea, .h-draft label input, .h-draft label select { display: block; width: 100%; margin-top: 6px; padding: 9px 10px; border: 1px solid #dce3d2; background: white; border-radius: 9px; color: #333b2e; box-sizing: border-box; }
+.h-sheet textarea { resize: vertical; }
+.h-times { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+/* 计划 / 记忆卡片 */
+.h-card { border: 1px solid #e0e5d6; border-radius: 14px; padding: 14px 16px; background: white; margin: 12px 0; }
+.h-card.off { opacity: 0.65; }
+.h-card-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; gap: 8px; }
+.h-card-text { margin: 4px 0 10px; line-height: 1.7; }
+.h-pill { display: inline-block; background: #eef0e6; color: #66705a; border-radius: 999px; padding: 2px 9px; font-size: 12px; }
+.h-pill.status-open { background: var(--error); color: var(--error-text); }
+.h-pill.status-handled { background: var(--ok); color: var(--ok-text); }
+
+/* 弹层底部“说一句” + 草稿 */
+.h-sentence { margin-top: 16px; }
+.h-sentence-row { display: flex; gap: 8px; }
+.h-sentence-row input { flex: 1; min-width: 0; border: 1px solid #dce0d3; border-radius: 12px; padding: 11px 12px; background: white; }
+.h-draft { background: #f3eef7; border: 1px dashed #c8b9d5; border-radius: 14px; padding: 14px; }
+.h-homi { margin: 0 0 10px; color: #5b4c6c; }
+
+/* “今天” */
+.h-report { border-bottom: 1px solid #e3e6da; padding-bottom: 12px; margin-bottom: 4px; }
+.h-row { display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; }
+.h-headline { margin: 6px 0; font-size: 16px; font-weight: 600; line-height: 1.6; }
+.h-groups { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 6px; }
+.h-groups li { display: flex; gap: 10px; font-size: 13px; line-height: 1.6; }
+.h-group-name { flex: none; min-width: 8em; font-weight: 600; }
+.h-group-name small { color: var(--muted); font-weight: 400; }
+.h-list { padding-left: 18px; margin: 0; font-size: 13px; line-height: 1.8; }
+.h-earlier { border-top: 1px solid #e3e6da; padding: 10px 0; }
+.h-earlier summary { cursor: pointer; color: var(--muted); }
+.home .event-card { background: white; cursor: default; }
+.h-step { padding: 6px 4px 10px; }
+.h-step .keyframe { width: 140px; }
+
+@media (max-width: 560px) {
+  .h-main { padding: 18px 14px 140px; }
+  .h-scene { height: 260px; border-radius: 18px; }
+  .h-entry { padding: 14px 12px; gap: 9px; }
+  .h-brand { font-size: 20px; }
+  .h-times { grid-template-columns: 1fr; }
+  .h-sheet { padding: 18px 16px; border-radius: 18px; }
+  .h-row { flex-direction: column; }
+}
+.h-actions + label, .h-actions + .h-description { margin-top: 14px; }
+
+/* 对话 */
+.h-chat { display: grid; gap: 12px; margin-top: 22px; }
+.h-bubble { max-width: 88%; line-height: 1.75; font-size: 14px; padding: 10px 15px; border-radius: 16px; overflow-wrap: anywhere; }
+.h-bubble p { margin: 0; white-space: pre-wrap; }
+.h-bubble.me { justify-self: end; background: #e9e2f0; }
+.h-bubble.homi { justify-self: start; background: white; border: 1px solid #e6e9df; }
+.h-bubble .h-draft { margin-top: 10px; }
+.h-typing { color: var(--muted); }
+.h-look { display: block; width: 100%; max-width: 360px; border-radius: 12px; margin-top: 8px; }
+.h-evidence { margin-top: 8px; }
+.h-evidence .event-card { margin: 6px 0 0; }
+
+/* 底部输入（参考 ChatGPT 网页版） */
+.h-composer-wrap { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; padding: 10px 16px 12px; background: linear-gradient(transparent, #f5f5ef 30%); }
+.h-composer { max-width: 772px; margin: 0 auto; display: flex; align-items: flex-end; gap: 8px; background: white; border: 1px solid #dfe3d6; border-radius: 26px; padding: 8px 8px 8px 18px; box-shadow: 0 6px 24px #1d261c14; }
+.h-composer textarea { flex: 1; border: 0; outline: none; resize: none; background: transparent; padding: 8px 0; line-height: 1.6; max-height: 160px; color: var(--text); }
+.h-composer:focus-within { border-color: #c8bdd7; }
+.h-composer-tools { display: flex; gap: 6px; align-items: center; }
+.h-send { width: 38px; height: 38px; border-radius: 50%; border: 0; background: #30362e; color: white !important; font-size: 18px; }
+.h-send:disabled { background: #d9ddd2; cursor: default; }
+.h-composer-hint { max-width: 772px; margin: 6px auto 0; text-align: center; font-size: 11px; color: #9aa092; }
+/* 滚到最新一条时，留出底部输入框的高度 */
+.h-chat-end { scroll-margin-bottom: 130px; }
+/* 输入框里不要方形的焦点框，用外框变色表示 */
+.home .h-composer textarea:focus-visible { outline: none; }
+.h-mic { width: 38px; height: 38px; border-radius: 50%; border: 0; background: #ece6f2; font-size: 17px; touch-action: none; user-select: none; }
+.h-mic.recording { background: #d2c2e2; box-shadow: 0 0 0 6px #d2c2e255; }
+.h-mic:disabled { opacity: 0.6; }
+.h-composer-hint.warn { color: #8e5a2d; }
+/* 画面没开时的按钮：深绿底上换成浅色，看得清 */
+.h-scene-empty .h-primary { background: #fffffff0; color: #37412f !important; }
+.h-scene > .eufy-live { position: absolute; inset: 0; }
+.h-scene > .eufy-live > * { width: 100%; height: 100%; }

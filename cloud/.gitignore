@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+.env.local
+# 第三方测试视频（许可不允许再分发）
+test-videos/
+app.tar.gz
+
+data/
+data-dev/
+build/
+
+# eufy 摄像头鉴权参数（赛事方分配，不进代码、不打包）
+eufy.local.json

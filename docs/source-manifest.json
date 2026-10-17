@@ -1,0 +1,878 @@
+[
+  {
+    "path": ".gitignore",
+    "source": "repository-handover-documentation",
+    "sha256": "01f8a221106fc9461581f3a20bafe8a82d31b1214ed1b16ff3fa9455f0cb25c6",
+    "bytes": 297
+  },
+  {
+    "path": "README.md",
+    "source": "repository-handover-documentation",
+    "sha256": "2e2e32159fc83833c39965183c1ad900a132a8ed08eba2fde8f74f6d0d6539c8",
+    "bytes": 3075
+  },
+  {
+    "path": "apple/Liudeng Watch App/Assets.xcassets/AccentColor.colorset/Contents.json",
+    "source": "local-xcode-20261017",
+    "sha256": "9af65086fa30b49252fae1a1225731691de794f7775af74d71befeb507d12b7c",
+    "bytes": 123
+  },
+  {
+    "path": "apple/Liudeng Watch App/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "source": "local-xcode-20261017",
+    "sha256": "95322a185e5ef5408223d79c8aa85fbd2f17950a918ecf862887b864e2725c37",
+    "bytes": 181
+  },
+  {
+    "path": "apple/Liudeng Watch App/Assets.xcassets/Contents.json",
+    "source": "local-xcode-20261017",
+    "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b",
+    "bytes": 63
+  },
+  {
+    "path": "apple/Liudeng Watch App/CloudModel.swift",
+    "source": "local-xcode-20261017",
+    "sha256": "2bd32ecf436078829578020557f304d88ca434788c22ca6f542996c855b744ab",
+    "bytes": 11068
+  },
+  {
+    "path": "apple/Liudeng Watch App/ContentView.swift",
+    "source": "local-xcode-20261017",
+    "sha256": "b90dd3300af3ad4465ba45fe688e4d1a1eb3b686652677ab8715c4d2d2d67b56",
+    "bytes": 5042
+  },
+  {
+    "path": "apple/Liudeng Watch App/LiudengApp.swift",
+    "source": "local-xcode-20261017",
+    "sha256": "5b658b228a5c0517d66cefb946afa37b6c23300314a0eccd1e5ca2ce75ccc566",
+    "bytes": 257
+  },
+  {
+    "path": "apple/Liudeng.xcodeproj/project.pbxproj",
+    "source": "local-xcode-20261017",
+    "sha256": "3aa219f0c4e44c7f1138eee1eef48510df5ef1aa110d4ff6c53bb6602d353ed3",
+    "bytes": 20757
+  },
+  {
+    "path": "apple/Liudeng.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "source": "local-xcode-20261017",
+    "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f",
+    "bytes": 135
+  },
+  {
+    "path": "apple/Liudengphone/Assets.xcassets/AccentColor.colorset/Contents.json",
+    "source": "local-xcode-20261017",
+    "sha256": "9af65086fa30b49252fae1a1225731691de794f7775af74d71befeb507d12b7c",
+    "bytes": 123
+  },
+  {
+    "path": "apple/Liudengphone/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+    "source": "local-xcode-20261017",
+    "sha256": "21732f7fb04677779d5167292f05a21ca0343c320fe98ac86456f7bea9e224cc",
+    "bytes": 13883
+  },
+  {
+    "path": "apple/Liudengphone/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "source": "local-xcode-20261017",
+    "sha256": "f6928e029e4b3424f4d9d842404b2003e0e9553b53964ff38dc5875f882650b3",
+    "bytes": 202
+  },
+  {
+    "path": "apple/Liudengphone/Assets.xcassets/Contents.json",
+    "source": "local-xcode-20261017",
+    "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b",
+    "bytes": 63
+  },
+  {
+    "path": "apple/Liudengphone/ContentView.swift",
+    "source": "local-xcode-20261017",
+    "sha256": "e5ec5852d4582ebd802891ac386ee8a0b4f3b994e553767c0837ae463772191e",
+    "bytes": 24509
+  },
+  {
+    "path": "apple/Liudengphone/LiudengphoneApp.swift",
+    "source": "local-xcode-20261017",
+    "sha256": "6c3194bc90bb3c6723f18b30e182a4bbd701496ea6dfe0dc08b0d02094085448",
+    "bytes": 252
+  },
+  {
+    "path": "apple/Liudengphone/PhoneCloud.swift",
+    "source": "local-xcode-20261017",
+    "sha256": "f2224a4b2b34fca6f62a0d1a38d91f4784bfbaa321d98f24d2ec215eee1b8b93",
+    "bytes": 17014
+  },
+  {
+    "path": "cloud/.env.example",
+    "source": "handover-zip-20261016",
+    "sha256": "c80d8588b987c418ce74287d99de55f76cc2786d5a9396ab3e49fa412ea7a42a",
+    "bytes": 341
+  },
+  {
+    "path": "cloud/.gitignore",
+    "source": "handover-zip-20261016",
+    "sha256": "7ddc080d363cdbf0b8d1e3b3a75aa2b4ad80f1fcb30fe696e5a1eee850c4eae2",
+    "bytes": 231
+  },
+  {
+    "path": "cloud/README.md",
+    "source": "handover-zip-20261016",
+    "sha256": "650c1e192ba5c0a1e278b6442305aa7d3b4e1f7cdbf28dd9cdcfee5fdff04af5",
+    "bytes": 762
+  },
+  {
+    "path": "cloud/index.html",
+    "source": "handover-zip-20261016",
+    "sha256": "89068c456ddb274397063b6756e512ba56e5c598e144ac3f8cd039718f3f1890",
+    "bytes": 310
+  },
+  {
+    "path": "cloud/package-lock.json",
+    "source": "handover-zip-20261016",
+    "sha256": "443ef82ad3135bd8726d588a5f88eddf0fed19eb0f6a7fea57d6c11222df48fb",
+    "bytes": 91439
+  },
+  {
+    "path": "cloud/package.json",
+    "source": "handover-zip-20261016",
+    "sha256": "e9cecab394965a5dbefb6ebd53e5fa478d283010151bda5b78b585fe8542fff1",
+    "bytes": 1797
+  },
+  {
+    "path": "cloud/public/eval/terrace.jpg",
+    "source": "handover-zip-20261016",
+    "sha256": "b5685e54286ef51b14802faba6cb5897c9c357757dae3a75768320d487eedde6",
+    "bytes": 37947
+  },
+  {
+    "path": "cloud/public/sdk/README.md",
+    "source": "handover-zip-20261016",
+    "sha256": "345d4eef1f3f4c4755f15f6fdd2c5fcf9c2f4a903d49a91f6e3404fbb1281a5e",
+    "bytes": 601
+  },
+  {
+    "path": "cloud/scripts/build-server.mjs",
+    "source": "handover-zip-20261016",
+    "sha256": "5714c3514ad5e15955003ec7dbf1487b3b1253aedabb0b387152064730fdc0f1",
+    "bytes": 839
+  },
+  {
+    "path": "cloud/scripts/check-key.mjs",
+    "source": "handover-zip-20261016",
+    "sha256": "74744bbb8cc3148c08eaa7b3c1f509147519ca0859c2f616d6208b8aa88f2b6a",
+    "bytes": 2269
+  },
+  {
+    "path": "cloud/scripts/dev.mjs",
+    "source": "handover-zip-20261016",
+    "sha256": "4c427ab927aec17a887e5ffac702554594c6d8ed55ebb35e6dc6b0a0a2f0635b",
+    "bytes": 1407
+  },
+  {
+    "path": "cloud/server/engine.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "0be197c5c5bccea2dfd25b004bdd8dd43ed014c8697b451bff7ee85877d64253",
+    "bytes": 42379
+  },
+  {
+    "path": "cloud/server/image-ops-node.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "379ee5def4e914fc903e38fb52aae1bd7024f3a28adde07add83ba9c23999c85",
+    "bytes": 3065
+  },
+  {
+    "path": "cloud/server/main.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "409de2c527ff319721912f25da0266db0b45ddba243d2d36d9335bc605370586",
+    "bytes": 24583
+  },
+  {
+    "path": "cloud/server/store.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "f292d5f3d015fa234f06f7fa564828807088075dbd1cd10cb0f82694c4558f10",
+    "bytes": 5077
+  },
+  {
+    "path": "cloud/src/ai/asr.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "3b8c0718b2834d2d8f8a99326e4cc03c103d5ac63560de0c48b8bc16349796e4",
+    "bytes": 3898
+  },
+  {
+    "path": "cloud/src/ai/assistant.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "36e0a58c9788c7d75aa042710d33c58a6246d274f126b8d2dab9a591f84dc943",
+    "bytes": 7857
+  },
+  {
+    "path": "cloud/src/ai/consolidate.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "1987aae92f243d55b5c2a00575f9efa70430efa1dc089e7d12257d481ab34446",
+    "bytes": 8582
+  },
+  {
+    "path": "cloud/src/ai/feedback.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "3913a7393d1018f23404b97877157c7bd322b88e3a5b586fb8973863ff53ec70",
+    "bytes": 4547
+  },
+  {
+    "path": "cloud/src/ai/frame-pack.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "93603dd095a50c7e728ddc6891ac6b0d8c3d30182ba67dac80e19e6d4c25e0a9",
+    "bytes": 3042
+  },
+  {
+    "path": "cloud/src/ai/frames.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "bd2920503cf150f7d7b1b07d4cb707e97a1dd42b5beb785ab9ba31515912d7de",
+    "bytes": 3368
+  },
+  {
+    "path": "cloud/src/ai/frames.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "ef7120cd02577e6fb33024495d8d63fb1bebdbc02bf3fb5e50e73d0949fcbb17",
+    "bytes": 4959
+  },
+  {
+    "path": "cloud/src/ai/gateway.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "004543b2b2b9a6507171726ba98c568a081332a29eb80c79d7821296592293c0",
+    "bytes": 6567
+  },
+  {
+    "path": "cloud/src/ai/image-ops.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "dfdf2d75099237d6d609e838ae1488da6c1ffa63070143c9b55c997de82e55c1",
+    "bytes": 2022
+  },
+  {
+    "path": "cloud/src/ai/instruction.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "db9924f8f26dc243273f7c768481ef3faa33950e0d05d497c9b07568adae455d",
+    "bytes": 3484
+  },
+  {
+    "path": "cloud/src/ai/judge.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "721249a6ad860166834f72522e030a5fc1fd4a051ce92141c0273cc94530bc01",
+    "bytes": 22771
+  },
+  {
+    "path": "cloud/src/ai/keyframes.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "b6fa1d073bc8a8861e91ccd3e65dccf1a5c32a7485aa63349f91d9d1751b686c",
+    "bytes": 2849
+  },
+  {
+    "path": "cloud/src/ai/merge.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "97010e3fb3b41cc923cc300cb3bb17fb4476330cf888a4369fdde2b7bc669129",
+    "bytes": 12089
+  },
+  {
+    "path": "cloud/src/ai/models.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "8c50df5b28259c9b9839a542e0cc6b30d2b8775d04b4e7006b17c195493e1451",
+    "bytes": 3419
+  },
+  {
+    "path": "cloud/src/ai/models.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "1700c5fb7d32202378d5ef317ae7468cd8bad2658b974dd2cb23c7eb94f5e7a8",
+    "bytes": 11429
+  },
+  {
+    "path": "cloud/src/ai/pipeline.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "cafe1273a2233248fe311c8e55ffb0c0f0e5a1b31503f264d93fb886e0ffea78",
+    "bytes": 8439
+  },
+  {
+    "path": "cloud/src/ai/recheck.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "c12cd40f2956e6b2eaca8790ee8f1e2d65d4eeda739d23ca3771392881da1815",
+    "bytes": 2190
+  },
+  {
+    "path": "cloud/src/ai/report.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "41758f886c6d9543c51132d79fc0901891d4c46339b6f4e58eb0abab07983a81",
+    "bytes": 2315
+  },
+  {
+    "path": "cloud/src/ai/step.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "30eb6acd563103d9a49d58fb0576fdab9f1ff019d0d07c142def165521359723",
+    "bytes": 1919
+  },
+  {
+    "path": "cloud/src/ai/zones.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "0f21f23b8acd9fb9015e412e488ee7f25de0983e78170cfde0e33bca69b11f58",
+    "bytes": 2023
+  },
+  {
+    "path": "cloud/src/ai/zones.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "8a57debda55f5e466538f661591a252950450c356997f074de0bd057dabb9677",
+    "bytes": 3113
+  },
+  {
+    "path": "cloud/src/components/AlertBanner.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "de4e45e890537a810ad9991958895094c853515f72703c800c725849349e2577",
+    "bytes": 7172
+  },
+  {
+    "path": "cloud/src/components/AuthGate.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "7c66caa91fba070bb4d85b03ffe85ed11c6d47dc3548ef9e51ba268fedf44154",
+    "bytes": 3034
+  },
+  {
+    "path": "cloud/src/components/CategoryPanel.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "9a4fdab29942a9c9dc6d5e921c77dc332bb1cb5248ba28a924f6cbbc2c3cac7f",
+    "bytes": 884
+  },
+  {
+    "path": "cloud/src/components/ConfigPanel.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "0c005a0d5fd5c7ae220effcc66e5accee2907bdf40475b5bda6aeaee54f080d9",
+    "bytes": 2816
+  },
+  {
+    "path": "cloud/src/components/ContextPanel.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "13a121e1c3485bb4428becfa424cb4a73bf64b96bddab42c3810b7450ab8c2a7",
+    "bytes": 7447
+  },
+  {
+    "path": "cloud/src/components/EufySheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "5d913c99f53345bcd3ec14faf6428c699e6fa8eee7b62af46dca51fb4c72c6fd",
+    "bytes": 3672
+  },
+  {
+    "path": "cloud/src/components/EventCard.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "05fb344dcf07e70d4bad0a76e36fe9f046aa34258eb6ebcefbb148164ca215dd",
+    "bytes": 5642
+  },
+  {
+    "path": "cloud/src/components/EventDebug.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "5684661aa6423319e436d26e6b00de07dbc92d6017040b913029089a5da3f7ba",
+    "bytes": 1688
+  },
+  {
+    "path": "cloud/src/components/FeedbackBar.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "72f04cb73f0aa14a914c3ab9879d97e9863c1aa34b09f22658720e32b0fcaa2a",
+    "bytes": 2991
+  },
+  {
+    "path": "cloud/src/components/FeedbackSheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "fdefe9f2a93d5f0aca1cda9f83ef5b9b0d75b612a1a724f93b2ea5d0c77437e5",
+    "bytes": 8179
+  },
+  {
+    "path": "cloud/src/components/IgnoreZones.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "44a828f7753efa36a9d4f185be08ec8149c0fafb004c1439f6d779d72a5fd2ed",
+    "bytes": 3107
+  },
+  {
+    "path": "cloud/src/components/JudgeSettings.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "bb4c970c830e93059cd70029b821b83fa3eb364f127e85d1ad3d939cfdc36b12",
+    "bytes": 6959
+  },
+  {
+    "path": "cloud/src/components/ModelPanel.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "d9b7255d6885dc2d5787bb9c7dce66ba3be9b0710eb2c93a75a866c037204d4d",
+    "bytes": 5350
+  },
+  {
+    "path": "cloud/src/components/Panel.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "b3be50de7b0fa3c2eea63b4cb99adde0b0bdaf2308cbdbcfba2d376f7ab16c01",
+    "bytes": 1320
+  },
+  {
+    "path": "cloud/src/components/PendingList.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "7600d4d4faa4e94fe5530cbf24cc79853ab852c2084e63dd3c13ab1435998715",
+    "bytes": 2901
+  },
+  {
+    "path": "cloud/src/components/RatioChart.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "16c9930d7a65d2ab2813314918589328b67b4ddcab47f4d5ae07f9143c78742c",
+    "bytes": 1952
+  },
+  {
+    "path": "cloud/src/components/ReportPanel.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "a3ae0fda0417b92433cfda1d4782c8e5fd8211b0f3f1f315238825a63e56da23",
+    "bytes": 4829
+  },
+  {
+    "path": "cloud/src/components/SegmentCard.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "cbea2fbac694c9277990334d9e121efa401557b436035f91db0ef4f4a605f8e4",
+    "bytes": 9791
+  },
+  {
+    "path": "cloud/src/components/SetupSheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "5bd91b93bcc0e5f20254e113745c8465919032e1ae6ea55e441d7ca6f21d8e68",
+    "bytes": 1849
+  },
+  {
+    "path": "cloud/src/config/scene.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "a2d0dd4c9056fcfdeaa3d24c183c302db5c342edbf1a5319dfbdad0293949067",
+    "bytes": 512
+  },
+  {
+    "path": "cloud/src/core/auth.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "73088c265614ebe919799a83d6b7f0348126d9c7e8201d851ae2c00ccbc8360f",
+    "bytes": 2864
+  },
+  {
+    "path": "cloud/src/core/useHomi.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "faaa1c1fced2dc648b1a1e5ee8ea560f7c797ba9e96e1c7c34422035ea4f38a2",
+    "bytes": 95149
+  },
+  {
+    "path": "cloud/src/dev/FrameEval.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "cd7f20dd92736a093099e3c9d2f9e38ec845d0cd04be1ddee5ab4bc378b6461e",
+    "bytes": 10811
+  },
+  {
+    "path": "cloud/src/dev/eval-scenes.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "3292b3d7e9d37ba680909e8ca5cf652015c331bb49a93b1ca49e3c1dc9b61aee",
+    "bytes": 4950
+  },
+  {
+    "path": "cloud/src/dev/test-clips.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "37154d88c8d29c0d68f07face9664852cd63642ce024bf8f60e76202e8f71344",
+    "bytes": 3841
+  },
+  {
+    "path": "cloud/src/eufy/config.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "d2e081d596fe05feaea46785d1d0bf6f0588734307703fe2b989c2ca35604c33",
+    "bytes": 2229
+  },
+  {
+    "path": "cloud/src/eufy/connect.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "dd84d9c84273fb80b3a580f01269bfa7be748cde286bff1fc3c4636ae831ffe1",
+    "bytes": 3437
+  },
+  {
+    "path": "cloud/src/eufy/ecdh.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "b994f6714f7e9351b981c047ea577111ae757a8c9744ef5f4beeac923d957d93",
+    "bytes": 2553
+  },
+  {
+    "path": "cloud/src/eufy/encryption.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "c14e242ed74d82c56967ced940ad60936e149d93c5d299cdbf427c53b4275618",
+    "bytes": 2445
+  },
+  {
+    "path": "cloud/src/eufy/header.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "1d7e749ea12efa1e0ce3d51312687d5004a0a31de3502e06a02513435b388046",
+    "bytes": 4983
+  },
+  {
+    "path": "cloud/src/eufy/request.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "08a6bd905346262fd23e67e75eba7af157fd6dfc65cfc005eb05b560342747c2",
+    "bytes": 3244
+  },
+  {
+    "path": "cloud/src/eufy/sdk.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "fcbaac4371e290f3d1c6d90194390cec641b094355c88a53dc3f5ba5951fde6b",
+    "bytes": 3525
+  },
+  {
+    "path": "cloud/src/events/consolidate.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "057a080bc7fb802c303b7c4e08fd92140456d4c996e299c0477283ffdd18984b",
+    "bytes": 6288
+  },
+  {
+    "path": "cloud/src/events/consolidate.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "dc5aa6f4a925badf5be47a660f1ceface6f784084765da9927af16b8fc723249",
+    "bytes": 7836
+  },
+  {
+    "path": "cloud/src/events/grouping.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "bc135df0d9d7545ca5dd7fbfc2e29caccfd9d8667df15e4a8a4a62d867f2a8f2",
+    "bytes": 7036
+  },
+  {
+    "path": "cloud/src/events/grouping.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "cd82d87caeb001ba2a8c0e33c5ce19bf217a3c572373510c0c797301cde904be",
+    "bytes": 8370
+  },
+  {
+    "path": "cloud/src/events/report.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "3b8b917576f4847939c2749c9c6adbe36c39713112b16f55e1199627680edf4e",
+    "bytes": 3452
+  },
+  {
+    "path": "cloud/src/events/report.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "4adc4e139f85918419998dd9c17871f1ee719514a2431ddb8ff4b38dc74e5bb5",
+    "bytes": 4936
+  },
+  {
+    "path": "cloud/src/events/urgent.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "01ebb9b6344ae4c975cedbebd89692eb6e19c24abc5a72512958adca18332c37",
+    "bytes": 2468
+  },
+  {
+    "path": "cloud/src/events/urgent.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "336e68ba6f43f7c15d99fa3adb52e3bcc57e05c77ae81794cfa54b4872e7ac8d",
+    "bytes": 2495
+  },
+  {
+    "path": "cloud/src/frame-source/clip.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "5b116f3d8f82b010107c9a03647cc558ede36662f453cc6b52b87a9907d5337e",
+    "bytes": 4985
+  },
+  {
+    "path": "cloud/src/frame-source/eufy.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "d3b063e31fcb4c37e3cc63d4318efce35faade274f4b024ca4aeaa69fc3ec092",
+    "bytes": 8045
+  },
+  {
+    "path": "cloud/src/frame-source/image-sequence.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "f6fa7881b376138fa47d51bd07a6a1d89ece104ce526aa9573c0d5bcb5213b55",
+    "bytes": 3521
+  },
+  {
+    "path": "cloud/src/frame-source/recorder.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "efa9e58009522429a234430a576818ac8ce35a71d2f6c3a1343b1776835ba4e1",
+    "bytes": 1495
+  },
+  {
+    "path": "cloud/src/frame-source/types.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "c1dea42714681efb56bedb80049116c319d9cfc1d1ab7301f7ee61773933533c",
+    "bytes": 995
+  },
+  {
+    "path": "cloud/src/frame-source/video-file.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "bc93ba8837dfe18136fdaeb442423d7a1c003427f4735229dc6091762c3e030d",
+    "bytes": 2814
+  },
+  {
+    "path": "cloud/src/frame-source/webcam.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "bf92008f0199efb32911e21694db60c8baf4c599af96d1d2235e105187049e21",
+    "bytes": 1536
+  },
+  {
+    "path": "cloud/src/home/Chat.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "c6746744898d9d49fa0eab5fb38ae5c087d59ff22ad34dc9c21a3e365233a108",
+    "bytes": 11711
+  },
+  {
+    "path": "cloud/src/home/DraftCard.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "7ae78bfbd1501b91ecd57cd5a87cf70b51357bb0b5f6e721286dd4e0e1cbeabe",
+    "bytes": 2848
+  },
+  {
+    "path": "cloud/src/home/HomePage.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "5605fedd2e1bd0a1c10b7924b734010d45660a953133795df388de534037088e",
+    "bytes": 6833
+  },
+  {
+    "path": "cloud/src/home/MemoriesSheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "76df93ee4358c3f7c8906fb7e4db99f0d16813e09bbed36ee2775e6312d884c9",
+    "bytes": 3282
+  },
+  {
+    "path": "cloud/src/home/PlansSheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "373d8b0b2f752003320f88ad565d853605f6816e6a361cb13ffec7a1592762de",
+    "bytes": 6443
+  },
+  {
+    "path": "cloud/src/home/SettingsSheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "07dce697c8a3809b4b1a138d824d0f279a8492e89f22d648e9f7ca744316c041",
+    "bytes": 4070
+  },
+  {
+    "path": "cloud/src/home/Sheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "a3c3f7bd4e853bd3312666fc1191e45583def215c8d5afddc957b7a324023176",
+    "bytes": 1089
+  },
+  {
+    "path": "cloud/src/home/TodaySheet.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "446fba9c67e489a854243bc92ed01d92ec6aa8c1c2e8490c8d7fc03c6819a10d",
+    "bytes": 6257
+  },
+  {
+    "path": "cloud/src/home/home.css",
+    "source": "handover-zip-20261016",
+    "sha256": "9b1436a571c79d7df6c94cd364ba08a31c6a30902b9a76ff57689008c2ff198f",
+    "bytes": 11315
+  },
+  {
+    "path": "cloud/src/home/useSentenceDraft.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "4d568373b0a904cf98c825ed817aeb420e437477d77710253f74cabe45b9bd26",
+    "bytes": 2134
+  },
+  {
+    "path": "cloud/src/main.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "8621393767b80df20248c268935a88b01dccd01f20d155c0003b085c18d5c595",
+    "bytes": 1818
+  },
+  {
+    "path": "cloud/src/memory/apply.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "7e21779005e9936c1f71ca1a013f5f1d0aecaf7ac0c58b6f0104c4708b81a36b",
+    "bytes": 5134
+  },
+  {
+    "path": "cloud/src/memory/apply.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "6eb49c428cfc5bc05c36efd28a393113c02337377c137c3c7aa3e570c1cb0ecc",
+    "bytes": 3893
+  },
+  {
+    "path": "cloud/src/memory/categories.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "3019948f3888f67b36ff82446017d8e0e4bf483a45edec1d2af4a34fec1a38ea",
+    "bytes": 5397
+  },
+  {
+    "path": "cloud/src/memory/types.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "0a34f8159846a5c4959dfdfed9c47dadc92bc06fdf02b1e9e62ef1e833efa5f9",
+    "bytes": 3790
+  },
+  {
+    "path": "cloud/src/motion/detector.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "d47dae7d100d7740d15db7557b0683e8e97faf93e6dfa754e9ab6ab65543c3d8",
+    "bytes": 10450
+  },
+  {
+    "path": "cloud/src/motion/state-machine.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "3c013625d2aff3379907e6bc0a3ece73e3476d7a090efdc10f0dcc5c3814e373",
+    "bytes": 6705
+  },
+  {
+    "path": "cloud/src/motion/state-machine.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "c1d389772dbe50a61df84abe069f484bd4fddf0ff7dea11ba1cbd8d3fd6c8beb",
+    "bytes": 8215
+  },
+  {
+    "path": "cloud/src/pages/ConsolePage.tsx",
+    "source": "handover-zip-20261016",
+    "sha256": "2d4a9fb445229804d664482eed4d18a5a76f70da21ceec88cf6e28db8e8573c3",
+    "bytes": 16506
+  },
+  {
+    "path": "cloud/src/store/db.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "38839b4f8b91162d009e74294ce606b1c22c54570d9fa74b634ec416c48c6414",
+    "bytes": 3005
+  },
+  {
+    "path": "cloud/src/store/persist.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "a3178ec4dfda494c77aaf707512e226e640de819941466f48039b9909b19eb8b",
+    "bytes": 4181
+  },
+  {
+    "path": "cloud/src/store/records.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "03172c7aad146fe389c93edf3d949a56ef0bdd9cc539b0e0e90965dbc7ac746b",
+    "bytes": 5958
+  },
+  {
+    "path": "cloud/src/store/retention.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "a4a28963d751452d25abfb30327ac8307aa0dbfb85cd26c79ab8ce8e82de4fa9",
+    "bytes": 1573
+  },
+  {
+    "path": "cloud/src/store/retention.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "75d769937344d6a5fe1584a516a20c4dad29914b14c58dc3d2fb4fb1ceafd252",
+    "bytes": 2022
+  },
+  {
+    "path": "cloud/src/styles.css",
+    "source": "handover-zip-20261016",
+    "sha256": "6bc5a17bd76e69c831cbc776e898b963f1ffa513a4b776d26e2e39611b471487",
+    "bytes": 26899
+  },
+  {
+    "path": "cloud/src/sync/diff.test.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "db56ccb24cbc844bc8a230f2882e84b9c24ccf6266e5fb95c4eebed0d19d0ef3",
+    "bytes": 1787
+  },
+  {
+    "path": "cloud/src/sync/diff.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "ed6f45d66dcb695478e745dc8982c5f36a72945410330d0b175cafbe566c460c",
+    "bytes": 1733
+  },
+  {
+    "path": "cloud/src/sync/tab-sync.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "85141a510883efdbdf4021087bc19ccda2f1f2a81bace0fd640fe7fd35a9bd8b",
+    "bytes": 6575
+  },
+  {
+    "path": "cloud/src/vite-env.d.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+    "bytes": 38
+  },
+  {
+    "path": "cloud/tsconfig.json",
+    "source": "handover-zip-20261016",
+    "sha256": "f187682d97938029b263ea5b023d87cab8db6bbc23d4860a2de42a494ff7dd8c",
+    "bytes": 483
+  },
+  {
+    "path": "cloud/tsconfig.server.json",
+    "source": "handover-zip-20261016",
+    "sha256": "afbb6e5e59c22e3cafeac03714b6a07b7e7118458b77e66eec1f7374a021c23f",
+    "bytes": 151
+  },
+  {
+    "path": "cloud/vite.config.ts",
+    "source": "handover-zip-20261016",
+    "sha256": "6da58b246dfca9e8f3a5af22f29e6036d27340ca9b10ee9f0588a9727872ea11",
+    "bytes": 615
+  },
+  {
+    "path": "design/app/README.md",
+    "source": "local-prototype",
+    "sha256": "c668f25fa44ad566e1df2c92f789c479fd2a0dfbc1fa660f1ae1bc1d5b0dc89a",
+    "bytes": 1045
+  },
+  {
+    "path": "design/app/devices.html",
+    "source": "local-prototype",
+    "sha256": "c1bf21c5e413cb9dcd15aaf3f58731e7c56d984ff240002f88486fdbff71a5ab",
+    "bytes": 1917
+  },
+  {
+    "path": "design/app/index.html",
+    "source": "local-prototype",
+    "sha256": "aa38a38fb1570875a16fc60de2a12730508a1a8e12d93a2ed39c710803a61a96",
+    "bytes": 67763
+  },
+  {
+    "path": "design/app/mobile.css",
+    "source": "local-prototype",
+    "sha256": "a0093c7c36422f899e4c4a9746b6f35c7b829ffffe91a4c501a5b8ed23202c35",
+    "bytes": 4285
+  },
+  {
+    "path": "design/app/mobile.js",
+    "source": "local-prototype",
+    "sha256": "3da3e7d6c6605a1edb36678a077678e3c316ecb48722eb47663bcd3c0974e1f0",
+    "bytes": 1766
+  },
+  {
+    "path": "design/app/后端联调与开发执行工作文档.md",
+    "source": "local-prototype",
+    "sha256": "277c628dc8670c19fb1b2ae4e180d03138302f44d70b9ca5a3912e721408ceef",
+    "bytes": 13570
+  },
+  {
+    "path": "design/app/留灯-简洁版恢复-双机离线预览.html",
+    "source": "local-prototype",
+    "sha256": "cb1bd76ad4defa06e60234ba8624831b477050d368425fb1651e2ba1a267b874",
+    "bytes": 159974
+  },
+  {
+    "path": "design/app/设备适配说明.md",
+    "source": "local-prototype",
+    "sha256": "aa66c64e485db0ed500585947a830d9d0c5843e403e01001490ec22f5dc73e24",
+    "bytes": 3374
+  },
+  {
+    "path": "design/watch/开发执行工作文档.md",
+    "source": "local-prototype",
+    "sha256": "c3feb853c6b12c6c73086a3c8c9213ad3f256290151bb57dfbd57c63579db8bd",
+    "bytes": 15035
+  },
+  {
+    "path": "design/watch/留灯-Apple-Watch-S9-双尺寸交互.html",
+    "source": "local-prototype",
+    "sha256": "8b55923bb772557300fb62098ddfa9c9727ed41e8ec65d3d375e9dfedcf73bdd",
+    "bytes": 61151
+  },
+  {
+    "path": "docs/api-handover.md",
+    "source": "handover-zip-20261016",
+    "sha256": "6265b3174aeb1a3ea4f37c238b15acbcac5d7025b6c08e7386b39a6297cf1809",
+    "bytes": 11928
+  },
+  {
+    "path": "docs/development.md",
+    "source": "repository-handover-documentation",
+    "sha256": "5e8c5fa26d2e7daded7d690e2fe9cf81e82487e42509260dee6b65e320a230fe",
+    "bytes": 2493
+  },
+  {
+    "path": "docs/interactions.md",
+    "source": "repository-handover-documentation",
+    "sha256": "8da5e5ec37a71e96d9c2c26f7bb2f62752136cc86aa2e85462afc90a218f9ac4",
+    "bytes": 2496
+  },
+  {
+    "path": "docs/status.md",
+    "source": "repository-handover-documentation",
+    "sha256": "d2e548c2b6662537be191685b89f1d8f04840f67b2386d2f221158c82e00c653",
+    "bytes": 1979
+  }
+]
